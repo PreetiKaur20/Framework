@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Test-class Suite]">
+  <test thread-count="2" name="Test1(failed)">
+    <classes>
+      <class name="tests.TC_Customer">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+          <include name="CreateCustomer" invocation-numbers="0"/>
+          <include name="testBefore"/>
+        </methods>
+      </class> <!-- tests.TC_Customer -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Test-class Suite] -->
